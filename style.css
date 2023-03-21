@@ -92,6 +92,6 @@ nav button i {
   }
   
 footer {
-    background: url(./Network.png) no-repeat center center fixed;
+    background: url("./images/Burning.png") no-repeat center center fixed;
     background-size: cover;
 }
