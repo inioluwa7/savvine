@@ -15,7 +15,7 @@
 </head>
 <body>
       <!--Main Navigation-->
-  <header>
+  <header id="home">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg d-lg-block fixed-top shadow-none px-md-5" style="z-index: 2000;">
@@ -30,27 +30,31 @@
         </button>
         <div class="collapse navbar-collapse " id="navbarExample01">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#intro">Home</a>
+            <li class="nav-item pe-3">
+              <a class="nav-link" href="#home" target="">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item pe-3">
               <a class="nav-link" href="" rel="nofollow"
-                target="_blank">About</a>
+                target="">Services</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="" target="_blank">Contact</a>
+            <li class="nav-item pe-3">
+              <a class="nav-link" href="" rel="nofollow"
+                target="">Our Company</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link" href="#contact" target="">Contact</a>
             </li>
           </ul>
 
           <ul class="navbar-nav list-inline">
             <!-- Icons -->
             <li class="">
-              <a class="nav-link" href="" rel="nofollow" target="_blank">
+              <a class="nav-link" href="" rel="nofollow" target="">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="" rel="nofollow" target="_blank">
+              <a class="nav-link" href="" rel="nofollow" target="">
                 <i class="fab fa-twitter"></i>
               </a>
             </li>
@@ -79,7 +83,7 @@
                 <h1 class="mb-3">Savvine Veritas World</h1>
                 <p>We can help you achieve greatness in life...</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio amet, eos, sint, maxime nulla facilis voluptatibus illo qui nobis laudantium culpa sed quas illum corporis saepe laborum possimus debitis est non odit natus! Eaque, eius.</p>
-                <a class="alertBtn btn btn-lg m-2" href=""
+                <a class="alertBtn btn btn-lg m-2" href="#contact"
                   role="button" rel="nofollow" target="">Contact Us</a>
               </div>
             </div>
@@ -129,7 +133,7 @@
   <main class="mt-5">
     <div class="container">
       <!--Section: Content-->
-      <section class="">
+      <section class="" id="about">
         <div class="py-3 fade-in-section">
           <h1 class="orange">Who Are We?</h1>
           <p>We all have been wired to believe in limitations and we live our lives like this, struggling each day, without achieving our real life purposes. While some attempts to take some steps forward, they fall back as a result of fear and other limiting factors.</p>
@@ -192,7 +196,7 @@
                   placerat vulputate. Ut vulputate est non quam dignissim
                   elementum. Donec a ullamcorper diam.
                 </p>
-                <a href="#!" class="btn btn-secondary btn-rounded">Read more</a>
+                <a href="/character.html" class="btn btn-secondary btn-rounded">Read more</a>
               </div>
             </div>
         
@@ -290,22 +294,83 @@
       <hr class="my-5" />
 
       <!-- section : Meet The Team -->
+      <section>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-10 col-xl-8 text-center">
+            <h3 class="mb-4">Meet The Team</h3>
+            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+              numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
+              quisquam eum porro a pariatur veniam.
+            </p>
+          </div>
+        </div>
       
+        <div class="row text-center">
+          <div class="col-md-6 mb-5 mb-md-0 fade-in-section">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #9d789b;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="./images/profil-01.png"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">Maria Smantha</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet eos adipisci,
+                  consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5 mb-md-0 fade-in-section">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #7a81a8;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="./images/profil-02.png"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">Lisa Cudrow</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i>Neque cupiditate assumenda in maiores
+                  repudi mollitia architecto.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <hr class="my-5">
     </div>
+    
   </main>
   <!--Main layout-->
 
   <!--Footer-->
-  <footer class="bg-light text-lg-start">
-    <div class="container">
+  <footer class=" text-lg-start text-light" id="contact">
+    <div class="container p-3 pt-5">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-4">
           <h2>Savvine <span class="orange">Consult</span></h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio veniam dolorum quasi? Doloremque aperiam, cupiditate impedit est unde rerum qui?</p>
-          <p><i class="fa fa-instagram"></i></p>
+          <p>We can help you achieve greatness...</p>
+          <p><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-facebook px-1"></i></p>
         </div>
-        <div class="col-md-3">
-          <h2>Links</h2>
+        <div class="col-md-4">
+          <h4>Specialization</h4>
+          <ul>
+            <li><a href="">Character Virtue</a></li>
+            <li><a href="">Research and Exploration</a></li>
+            <li><a href="">Organizational Management</a></li>
+            <li><a href="">Digital Skill</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2 class="orange">Links</h2>
           <ul>
             <li>Home</li>
             <li>About Us</li>
@@ -314,28 +379,15 @@
             <li>Contact Us</li>
           </ul>
         </div>
-        <div class="col-md-3">
-          <h2>Specialization</h2>
-          <ul>
-            <li>Character Virtue</li>
-            <li>Research and Exploration</li>
-            <li>Organizational Management</li>
-            <li>Digital Skill</li>
-          </ul>
-        </div>
-        <div class="col-md-3"></div>
       </div>
-      <!-- Copyright -->
-    <div class="text-center py-3">© 2020 Copyright:<a class="text-dark" href="">Savvine V World</a></div>
+      <hr>
     </div>
-
-
-
-
-    
-
+    <div class="text-center pb-3">© 2020 Copyright. <a class="text-dark" href="">Savvine V World</a></div>
     <!-- Copyright -->
   </footer>
+  <div class="mask rgba-black-strong">
+
+  </div>
   <!--Footer-->
   <!-- MDB -->
     <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
