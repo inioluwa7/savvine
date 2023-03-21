@@ -18,14 +18,14 @@ height: 100vh;
 }
 
 .carousel-item:nth-child(1) {
-background-image: url('./images/consult.jpg');
+background-image: url('../images/consult.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
 }
 
 .carousel-item:nth-child(2) {
-background-image: url('./images/header.jpg');
+background-image: url('../images/header.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
@@ -92,6 +92,6 @@ nav button i {
   }
   
 footer {
-    background: url("./images/Burning.png") no-repeat center center fixed;
+    background: url("../images/Burning.png") no-repeat center center fixed;
     background-size: cover;
 }
